@@ -1,0 +1,229 @@
+/*body defenition*/
+html {
+    background-image: url('../images/light.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#container {
+    max-width: 940px;
+ margin:auto;
+    background-color: #EEE2DC;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size:14px;
+     
+}
+
+
+.about {
+    width: 60%;
+    float: right;
+    text-align: right;
+    color: #123c69;
+}
+.picture {
+    width: 40%;
+    float: right;
+}
+
+
+
+/*content*/
+p {
+    text-align:right;
+    margin-top: 18px;
+    margin-bottom: 56px;
+    margin-right: 0px;
+    margin-left: 150px;
+    font-size: 14px;
+    word-spacing: 1px;
+    float:right;
+  
+}
+a #hitLink {
+    background-image: url(../images/hitlogo.jpg);
+    background-size: contain;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+   
+    text-align:center;
+    font-size: 25px;
+    margin-top: 92px;
+    margin-bottom: 49px;
+    margin-right: 0px;
+    margin-left: 80px;
+    float: right;
+}
+h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    margin-left: 80px;
+    float: right;
+}
+.logo {
+    margin-top: 0;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+section{
+    display:inline-block;
+}
+/*site navigation*/
+.siteNav {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-weight:100;
+}
+
+.siteNav li {
+    list-style: none;
+    float: right;
+    margin-right: 3px;
+    display:inline;
+}
+
+.siteNav ul li a {
+    display: block;
+    color: #123c69;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 3px solid #BAB2B5;
+    list-style: none;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 4px;
+}
+
+    .siteNav ul li a:hover {
+        background-color: #AC3B61;
+        
+    }
+
+.siteNav li a:active {
+    background-color: #AC3B61;
+    color: antiquewhite;
+}
+
+.siteNav ul li:hover ul {
+    display: block;
+    width: 80px;
+}
+.currentpage {
+    background-color: #AC3B61;
+}
+
+.siteNav a {
+    display: inline-block;
+    color: #123c69;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 3px solid #BAB2B5;
+    float: right;
+}
+
+/*end site navigation*/
+
+/*images*/
+.images {
+    max-width:100%;
+    height:auto;
+    margin-top: 18px;
+    float: left;
+    width: 400px;
+    box-shadow: 0 4px 8px 0 #AC3B61, 0 6px 20px 0 #AC3B61;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    display: grid;
+    grid-column-gap: 10px;
+    color: black;
+    margin-bottom: 10px;
+    position:relative;
+}
+div.images :hover {
+    border: 1px solid #777;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+div.images img {
+    margin-top:18px;
+    width: 100%;
+    height: auto;
+    display: block;
+    float:left;
+
+}
+
+
+/*pages*/
+.pageDesign {
+    border-top: 3px solid #BAB2B5;
+    border-bottom: 3px solid #BAB2B5;
+
+
+
+}
+/*banner overlay*/
+.banner{
+    position:absolute;
+    bottom:0;
+   right:0;
+   color:antiquewhite;
+   background-color: rgba(0,0,0, .65);
+   text-align:center;
+
+}
+/*floated elements*/
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+.contact {
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-right: 240px;
+    margin-left: 270px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 #AC3B61, 0 6px 20px 0 #AC3B61;
+    display: table-cell;
+    vertical-align: middle;
+    display: grid;
+    grid-column-gap: 100px;
+    color: black;
+    margin-bottom: 100px;
+    position: relative;
+}
+}
